@@ -1,0 +1,118 @@
+<!--
+  RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Nguyen Tuan Kiet
+  ID: s3978885
+  Acknowledgement: w3schools.com, stackoverflow.com, youtube.com, freefrontend.com
+-->
+
+<!--defines the document type-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--contains metadata, links to stylesheets, and the page title-->
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Booktopia</title>
+
+</head>
+
+<!--contains the visible content of the page-->
+<body>
+
+    <!--defines the page header and contains a logo, search box and navigation menu-->
+    <header>
+
+      <a class="logo-container" href="../index.html">
+        <img src="../logo/logo.png" alt="Website logo">
+        <div>Booktopia</div>
+    </a>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for books">
+            <button type="submit"><i class="fas fa-search"></i></button>
+         </div>
+         
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="category.html">Newest Books</a></li>
+                <li><a href="category2.html">Popular Books</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--defines the containing element for the main content section-->
+    <main>
+        
+        <!--creates a container for details about the book, including images, price and a button to add it to cart-->
+      <div class="detail">
+        <!--displays a large image of the book cover-->
+        <div class="big_book_pic">
+            <img src="../assets/book1.jpg" alt="DQ main picture">
+        </div>
+        <!--contains three smaller images of the book cover with different angles or zoom levels-->
+        <div class="small_book_pic">
+            <img src="../assets/dq1.jpg" alt="Another picture of DQ book">
+            <img src="../assets/dq2.jpg" alt="Another picture of DQ book">
+            <img src="../assets/dq3.jpg" alt="Another picture of DQ book">
+        </div>
+        <div class="price_card">
+            <h1>Don Quijote</h1>
+            <h2>$10</h2>
+            <button class="btn">
+                <span><a href="../index.html">Add to cart</a></span>
+            </button>
+        </div>
+      </div>
+      <!--creates a second container for more detailed information about the book-->
+      <div class="description">
+        <h1>Don Quijote</h1>
+        <h2>About the Book</h2>
+        <p>Author: Miguel de Cervantes Saavedra </p>
+        <p>Publication Date: 1605</p>
+        <p>Genre: Adventure</p>
+        <h2>Description</h2>
+        <p><br>Don Quijote, also known as Don Quixote, is a Spanish novel written by Miguel de Cervantes and originally published in two parts in 1605 and 1615.</br>
+          <br>The novel tells the story of a middle-aged gentleman named Alonso Quixano who becomes obsessed with the chivalric ideals he has read in books and decides to become a knight-errant himself, taking up his lance and sword to defend the helpless and fight against injustice.</br>
+          <br>The novel is considered a prototype of the modern novel in part because of its inclusion of many differing viewpoints, which is an early instance of heteroglossia or "multiple voices".</br>
+          <br>Don Quixote is often cited as one of the greatest novels in world literature and is considered to be the first modern novel.</br>
+          <br>It has been translated into numerous languages and has had a significant influence on literature and culture worldwide. In fact, Don Quixote is often cited as one of the greatest works of fiction ever written. </br> </p>
+      </div>
+
+    </main>
+
+    <!--contains information about the page footer, including social media links and navigation links-->
+    <footer>
+
+      <div class="social-icons">
+          <a href="https://www.facebook.com/ntk2024"><i class="fa-brands fa-facebook fa-2xl" style="color: #1451e1;"></i></a>
+          <a href="https://www.instagram.com/ntk2024_/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ff306c;"></i></a>
+          <a href="https://github.com/ntk2024"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
+       </div>
+       
+      <nav>
+          <ul>
+              <li><a href="../index.html">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Copyright</a></li>
+              <li><a href="../html/contact.html">Contact Us</a></li>
+          </ul>
+      </nav>
+      
+  </footer>
+
+</body>
+
+</html>
